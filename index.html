@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu toggle</title>
+</head>
+<body>
+    <button onclick="animar()" id="button-menu">
+        <span class="linha"></span>
+        <span class="linha"></span>
+        <span class="linha"></span>
+    
+    </button>
+    <script>
+function animar(){
+    const btn=document.getElementById('button-menu')
+    btn.classList.toggle('ativar')
+}
+    </script>
+
+
+
+
+</body>
+</html>
